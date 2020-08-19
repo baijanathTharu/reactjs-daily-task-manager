@@ -1,3 +1,21 @@
+# Daily Task Planner
+
+- [x] Create three components:
+
+  - [x] A button component for displaying input component.
+  - [x] An input component for user input.
+  - [x] A list-item component with a button aside it to do various operation.
+
+- [x] Style those components with css modules.
+- [x] Add taskHandler for the button component.
+- [x] Implement dynamic behavior in the button of the list-item component.
+  - [x] Behavior: pending (So display "Done" button that will cross that list-item)
+  - [x] Behavior: complete (So display "Delete" button that will cross that list-item)
+
+---
+
+# SET UP
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

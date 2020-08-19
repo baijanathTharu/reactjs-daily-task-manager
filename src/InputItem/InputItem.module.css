@@ -1,0 +1,46 @@
+.InputItem {
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.InputItem__input {
+  font-size: var(--font-small);
+  font-family: "Cookie", cursive;
+  padding: 0.66rem;
+  background-color: white;
+  outline: none;
+  border: 1px solid #eee;
+  box-shadow: 0px 2px 4px #ccc;
+  width: 400px;
+}
+
+@media screen and (max-width: 550px) {
+  .InputItem__input {
+    width: 80%;
+  }
+}
+
+.InputItem__input:focus {
+  color: orangered;
+}
+
+.InputItem__add {
+  font-size: var(--font-small);
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px #ccc;
+  padding: 0.66rem;
+  background-color: #fff;
+  color: orangered;
+  outline: none;
+  cursor: pointer;
+}
+
+.InputItem__add:hover {
+  border-radius: 10px;
+  background-color: orangered;
+  color: white;
+}

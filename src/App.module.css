@@ -1,0 +1,31 @@
+.App {
+  border: 1px solid #eee;
+  box-shadow: 0px 3px 4px #bbb;
+  display: flex;
+  margin: 20px auto;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 90%;
+  min-height: 90vh;
+}
+
+.App__title {
+  margin: 10px 0px;
+  padding: 5px;
+  color: orangered;
+  font-size: var(--font-large);
+}
+
+@media (min-width: 500px) {
+  .App {
+    width: 490px;
+  }
+}
+
+.App__item {
+  display: flex;
+  margin: 10px 0px;
+  justify-content: center;
+  align-items: center;
+}
