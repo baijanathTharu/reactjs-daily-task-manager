@@ -1,4 +1,4 @@
-# Daily Task Planner
+# [Daily Task Planner](https://suspicious-heisenberg-7c152a.netlify.app/)
 
 - [x] Create three components:
 
